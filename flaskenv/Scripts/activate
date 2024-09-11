@@ -39,10 +39,17 @@ deactivate nondestructive
 if [ "${OSTYPE:-}" = "cygwin" ] || [ "${OSTYPE:-}" = "msys" ] ; then
     # transform D:\path\to\venv to /d/path/to/venv on MSYS
     # and to /cygdrive/d/path/to/venv on Cygwin
+<<<<<<< HEAD
     export VIRTUAL_ENV=$(cygpath "C:\Users\Dell\VscodeProjects\HttpMethods\flaskenv")
 else
     # use the path as-is
     export VIRTUAL_ENV="C:\Users\Dell\VscodeProjects\HttpMethods\flaskenv"
+=======
+    export VIRTUAL_ENV=$(cygpath "C:\Users\Dell\Downloads\fp001\flaskenv")
+else
+    # use the path as-is
+    export VIRTUAL_ENV="C:\Users\Dell\Downloads\fp001\flaskenv"
+>>>>>>> 3477674 (basic flask, routing)
 fi
 
 _OLD_VIRTUAL_PATH="$PATH"

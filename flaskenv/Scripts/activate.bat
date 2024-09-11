@@ -8,7 +8,11 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
+<<<<<<< HEAD
 set VIRTUAL_ENV=C:\Users\Dell\VscodeProjects\HttpMethods\flaskenv
+=======
+set VIRTUAL_ENV=C:\Users\Dell\Downloads\fp001\flaskenv
+>>>>>>> 3477674 (basic flask, routing)
 
 if not defined PROMPT set PROMPT=$P$G
 
